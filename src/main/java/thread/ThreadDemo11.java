@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import static java.lang.Thread.sleep;
 
 @Slf4j(topic = "c.ThreadDemo15")
-public class ThreadDemo15 {
+public class ThreadDemo11 {
     public static void main(String[] args) {
         Runnable r1 = () -> {
             try {
