@@ -142,7 +142,7 @@ class ThreadPool {
  * 4）抛出异常
  * 5）调用者自己执行任务
  */
-interface RejectPolicy<T> {
+interface   RejectPolicy<T> {
     void reject(BlockQueue<T> queue, T task);
 }
 
