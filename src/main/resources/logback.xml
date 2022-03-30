@@ -2,11 +2,7 @@
 <configuration>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-<<<<<<< HEAD
-            <pattern>%date{HH:mm:ss.SSSSSS} [%t] %logger - %m%n</pattern>
-=======
             <pattern>%date{HH:mm:ss.SSS} [%t] %logger - %m%n</pattern>
->>>>>>> fc68d98bf4b2c7f3f6a41d7ef984858400430a4f
         </encoder>
     </appender>
 
