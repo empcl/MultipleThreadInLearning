@@ -59,6 +59,8 @@
 
 > 上述三点参考代码：ThreadDemo8
 #### interrupt 两阶段终止
+需求图示：<br/>
+![两阶段终止模式.png](两阶段终止模式.png)
 > 参考代码：ThreadDemo10
 
 ### 不推荐的方法
